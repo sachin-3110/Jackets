@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jacket.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    nav p{
+     font-weight: bolder;
+    }
+    #hello:hover i{
+        opacity: 1;
+    }
+    #hello:hover{
+        background-color: whitesmoke;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body class="h-screen w-screen">
+<nav class="flex h-[10vh] w-screen justify-end p-5">
+    <p class="p-5 text-2xl font-extrabold hover:cursor-pointer hover:text-gray-400">About</p>
+    <p class="p-5 text-2xl font-extrabold hover:cursor-pointer hover:text-gray-400">Home</p>
+    <p class="p-5 text-2xl font-extrabold hover:cursor-pointer hover:text-gray-400">Cart</p>
+    <i class="ri-shopping-bag-4-line bg-black text-[4vh] w-[50px] text-center h-[50px] text-white rounded-[50%] hover:bg-gray-400"></i>
+</nav>
+<main class="p-7 pt-0">
+    <p class="text-[60px]">
+       Lightly padded,<br>
+       quilted jacket in <br>
+       recycled plyester 
+    </p>
+    <div class="flex justify-between">
+        <div class="righttext w-[25vw] pt-8 h-[20vh] overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsum asperiores possimus alias nemo, porro laboriosam modi dolore odit voluptate distinctio et doloribus similique sed enim temporibus, autem dolorum facilis iis praesentium excepturi doloribus?</div>
+        <div class="lefttext w-[25vw] text-2xl font-extrabold">
+            <div id="hello" class="flex justify-between border-t-4 border-black pt-2 pb-2">
+                <h1 class="">Add to Cart</h1>
+                <i class="ri-arrow-right-up-line opacity-0"></i>
+            </div>
+            <div id="hello" class="flex justify-between border-t-4 border-black pt-2 pb-2"> 
+                <h1 class="">Product Details</h1>
+                <i class="ri-arrow-right-up-line opacity-0"></i>
+            </div>
+            <div id="hello" class="flex justify-between border-t-4 border-black pt-2 pb-2"> 
+                <h1 class="">Shopping</h1>
+                <i class="ri-arrow-right-up-line opacity-0"></i>
+            </div>
+        </div>
+</main>
+<div class="w-screen bg-[url('https://images.pexels.com/photos/7494676/pexels-photo-7494676.jpeg?auto=compress&cs=tinysrgb&w=600')] h-[40vh] bg-no-repeat bg-cover bg-bottom">
+
+</div>
+
+</body>
+</html>
